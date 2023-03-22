@@ -1,0 +1,83 @@
+
+.login__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 90%;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  
+  .left__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    background: 'whitesmoke';
+  }
+  .left__container .maxwell{
+    height: 90%;
+  }
+  
+  
+  .right__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    margin: 20px;
+  }
+  
+  .right__container .logo{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0px 15px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .form__container label{
+    align-self: flex-start;
+    font-size: 14px;
+    margin-top: 5px;
+    opacity: .8;
+  }
+  .form__container input{
+    width: 300px;
+    padding: 15px 30px;
+    margin: 10px 0;
+    border-radius: 10px;
+    opacity: .8;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
+  
+  
+  }
+  .form__container button{
+    width: 300px;
+    padding: 15px 30px;
+    margin: 50px 0;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: #6688ff;
+    color: white;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
+  }
