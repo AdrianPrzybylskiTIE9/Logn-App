@@ -1,11 +1,14 @@
-import './App.css';
-import AddUser from './components/AddUser'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './components/Home';
+
 
 function App() {
   return (
-    <div className="App">
-      <AddUser></AddUser>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path='/' element={<Home/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
