@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Outlet, Link } from "react-router-dom";
 import './AddUser.css';
 import maxwell from '../assets/maxwell-cat.gif'
 
@@ -68,7 +69,8 @@ const AddUser = () => {
     return (
         <div className='login__container'>
         <div className='left__container'>
-          <img src={maxwell} className='maxwell'/>
+          <Link to="/users"><img src={maxwell} className='maxwell'/></Link>
+          <Link to="/users"><p>Nacisnij Maxwella</p></Link>
         </div>
         <div className='right__container'>
           <img src='https://codingcat.codes/wp-content/uploads/2017/08/l1-1.png' className='logo'/>

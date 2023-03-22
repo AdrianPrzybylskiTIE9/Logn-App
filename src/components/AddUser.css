@@ -16,12 +16,38 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 50%;
     height: 50%;
     background: 'whitesmoke';
   }
+  .left__container a{
+    color: black;
+    text-decoration: none;
+  }
   .left__container .maxwell{
-    height: 90%;
+    height: 100%;
+    transition: .2s;
+  }
+  .left__container .maxwell:hover{
+    scale: 1.1;
+  }
+  .left__container p{
+    opacity: .8;
+    transition: .2s;
+  }
+  .left__container p:hover{
+    scale: 1.1;
+  }
+  .left__container p::before{
+    content: '[';
+    font-weight: 'bold';
+    font-size: 20px;
+  }
+  .left__container p::after{
+    content: ']';
+    font-weight: 'bold';
+    font-size: 20px;
   }
   
   
