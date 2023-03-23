@@ -1,4 +1,5 @@
 import { useEffect, useCallback, useState } from 'react';
+import { Outlet, Link } from "react-router-dom";
 import './ShowUsers.css'
 
 function ShowUsers() {
@@ -13,7 +14,8 @@ function ShowUsers() {
       resData.push({
         name: data[key].name,
         email: data[key].email,
-        age: data[key].age
+        age: data[key].age,
+        image: data[key].image
       })
     }
 
@@ -26,13 +28,15 @@ function ShowUsers() {
     })
   },[getData()])
 
+
   return (
     <div className="users">
+      <Link className='backButton' to='/'><i className="fa-solid fa-arrow-left"></i></Link>
       {
         loadedData.map((item) => (        
           <div className='user__container'>
             <div className='user-info-st'>
-              <img src='https://cataas.com/cat'/>
+              <img src={item.image}/>
               <p>{item.name}</p>
             </div>
             <div className='user-info'>
