@@ -1,6 +1,6 @@
 # React Login App
 
-![Zdjęcie aplikacji](https://cdn-151.anonfiles.com/bco0z3g2z6/398e080e-1679574272/maxwell.png)
+![Zdjęcie aplikacji](https://i.pinimg.com/564x/b9/59/f6/b959f6b2746e13318895a6f865d9babc.jpg)
 
   
   
