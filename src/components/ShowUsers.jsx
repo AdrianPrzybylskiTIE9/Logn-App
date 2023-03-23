@@ -1,4 +1,5 @@
 import { useEffect, useCallback, useState } from 'react';
+import './ShowUsers.css'
 
 function ShowUsers() {
   const [loadedData, setLoadedData] = useState([]);
@@ -26,13 +27,18 @@ function ShowUsers() {
   },[getData()])
 
   return (
-    <div className="Home">
+    <div className="users">
       {
-        loadedData.map((item) => (
-          <div>
-            <p>{item.name}</p>
-            <p>{item.email}</p>
-            <p>{item.age}</p>
+        loadedData.map((item) => (        
+          <div className='user__container'>
+            <div className='user-info-st'>
+              <img src='https://cataas.com/cat'/>
+              <p>{item.name}</p>
+            </div>
+            <div className='user-info'>
+                <p><i className="fa-solid fa-envelope"></i><span>{item.email}</span></p>
+                <p><i className="fa-solid fa-user"></i><span>{item.age} lat</span></p>
+            </div>
           </div>
         ))
       }
