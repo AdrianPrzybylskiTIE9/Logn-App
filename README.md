@@ -6,7 +6,7 @@
   
 ## 🧐 Funkcjonalności
 
-Oto niektóre z najlepszych funkcji projektu:
+Oto kilka z najlepszych funkcji projektu:
 
 *   Tworzenie nowego użytkownika
 *   Aktualizacja użytkowników na żywo
@@ -16,7 +16,7 @@ Oto niektóre z najlepszych funkcji projektu:
 
   
   
-## 💻 W czym napisany
+## 💻 Języki i API
 
 W projekcie użyłem:
 
